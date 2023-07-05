@@ -72,7 +72,7 @@ function Filme(){
 
       <h3>Sinopse</h3>
       <span>{filme.overview}</span>
-      <strong>Avalição: {filme.vote_average} / 10</strong>
+      <strong>Avaliação: {filme.vote_average} / 10</strong>
 
       <div className="area-buttons">
         <button onClick={salvarFilme}>Salvar</button>
